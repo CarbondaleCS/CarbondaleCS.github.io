@@ -1,3 +1,5 @@
+/** https://css-tricks.com/snippets/jquery/smooth-scrolling/ **/
+
 // Select all links with hashes
 $('a[href*="#"]')
   // Remove links that don't actually link to anything
@@ -6,7 +8,7 @@ $('a[href*="#"]')
   .click(function(event) {
     // On-page links
     if (
-      location.pathname.replace(/^\//, '') ==
+      location.pathname.replace(/^\//, '') ===
         this.pathname.replace(/^\//, '') &&
       location.hostname == this.hostname
     ) {

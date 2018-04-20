@@ -539,7 +539,7 @@ footer {
     width: 100%;
     left: 0;
     top: 0;
-    z-index: 100;
+    z-index: 1;
     border-top: 0;
     background: #d05f5f;
     text-align: left;
