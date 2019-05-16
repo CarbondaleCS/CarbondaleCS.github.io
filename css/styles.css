@@ -423,6 +423,27 @@ header {
   transition: opacity 0.8s linear;
 }
 
+#top {
+  width: 40px;
+  line-height: 40px;
+  overflow: hidden;
+  z-index: 999;
+  display: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 50px;
+  right: 0;
+  background-color: #0aa1a8;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+#top:hover {
+  background-color: #fff;
+  color: #0aa1a8;
+}
 .disapear {
   opacity: 0 !important;
   transition: opacity 0.8s linear;
