@@ -422,6 +422,17 @@ header {
   opacity: 1;
   transition: opacity 0.8s linear;
 }
+.legal {
+  text-align: center;
+  margin-left: 2em;
+  margin-top: 2em;
+}
+
+.legal a {
+  color: rgb(211, 203, 203);
+  font-size: 0.8em;
+  margin-left: 1em;
+}
 
 #top {
   width: 40px;
