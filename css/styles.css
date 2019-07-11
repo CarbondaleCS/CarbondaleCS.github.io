@@ -68,7 +68,7 @@ button {
 
 .b-green,
 .b-green:active {
-  background-color: #0aa1a8;
+  background: #018188;
 }
 
 .b-green:hover {
@@ -132,7 +132,7 @@ textarea {
 }
 
 .t-green {
-  color: #0aa1a8;
+  color: #018188;
 }
 
 .t-lightgreen {
@@ -199,7 +199,7 @@ header {
 }
 .carbondale {
   font-family: 'Arciform', sans-serif;
-  color: #0aa1a8;
+  color: #018188;
 }
 .cs {
   font-family: 'Abel', sans-serif;
@@ -219,7 +219,7 @@ header {
 }
 
 .main-nav a:hover {
-  border-bottom: 3px solid #0aa1a8;
+  border-bottom: 3px solid #018188;
 }
 
 .auth a {
@@ -323,6 +323,17 @@ header {
   position: relative;
   padding-bottom: 20px;
   margin-bottom: 20px;
+  background: #018188;
+}
+.bg-main {
+  background: #018188;
+}
+.bg-additional {
+  background: #018188;
+}
+
+.bg-additional-slider {
+  background: #018188;
 }
 
 .team-pictures,
